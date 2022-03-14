@@ -1,0 +1,215 @@
+* {
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+}
+
+
+
+
+.texto {
+color: antiquewhite;
+font-size: 20px;
+}
+
+.tabla {
+    color: antiquewhite;
+    font-size: 50px;
+    margin: auto;
+}
+
+.copete {
+    color: antiquewhite;
+    font-size: 30px;
+    }
+
+
+
+
+ul li { color: antiquewhite;}
+
+ul {
+    list-style-type: none;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.titulo {
+    color: antiquewhite;
+    font-size: 100px;
+    }
+
+.titulo2 {
+    color: antiquewhite;
+    font-size: 75px;
+    text-align: center;
+    }
+
+.sinsubrayado {
+    text-decoration: none;
+}
+
+.fondoheader {
+    background-color: white;
+}
+
+.derecha {
+    text-align: right;
+}
+
+/* body {
+    background-image: url(../imagenes/verde.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+header {
+    background-image: url();
+    background-position: left;
+    background-size: 10%;
+    background-repeat: no-repeat;
+}
+
+.header__contenedor {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main__contenedor {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+html {
+    background-image: url(../imagenes/lines_texture1100.jpg);
+}
+
+.nav__lista {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.nav__item {
+    margin-left: 2rem;
+}
+
+.nav_enlace {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.nav_enlace--activo {
+    background-color: antiquewhite;
+    color: darkgreen;
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    border-radius: 30px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+   }
+
+.grid {
+    display: grid;
+    grid-template-columns: 46% 50%;
+    width: auto;
+    /* grid-column: 5px; */
+}
+
+.interlineado1 {
+    line-height: 20px;
+}
+
+.interlineado2 {
+    line-height: 2px;
+}
+
+.espacio-parrafo-foto {
+    justify-content: end;
+}
+
+.padre {
+    justify-items: end;
+}
+
+.contorno {
+    border-radius: 1rem;
+}
+
+.footer__contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copy {
+    font-size: 20px;
+    flex-direction: row-reverse;
+}
+
+.galeria1 {
+    display: grid;
+    grid-template-columns: 39% 60%;
+    grid-template-rows: 100%;
+    width: auto;
+    justify-content: space-between;
+    border-radius: 30px;
+    color: antiquewhite;
+    /* grid-column: 5px; */
+}
+
+.galeria1 > * {
+    border: 1px solid antiquewhite;
+}
+
+.caja {
+    border: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+    max-width: 1000px;
+    width: 80%;
+    min-height: 300px;
+    padding: none
+    
+    ;
+}
+.galeria2 {
+    display: grid;
+    grid-template-columns: 60% 39%;
+    grid-template-rows: 100%;
+    width: auto;
+    justify-content: space-between;
+    color: antiquewhite;
+    /* grid-column: 5px; */
+}
+.galeria2 > * {
+    border: 1px solid antiquewhite;
+}
+
+.contorno_perfumeria {
+    border-radius: 1rem;
+}
+
+.interlineadox {
+    line-height: 20px;
+}
